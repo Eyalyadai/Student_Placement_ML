@@ -43,4 +43,4 @@ If you want to run this code on your machine:
 
 1. **Clone this repository:**
    ```bash
-   git clone [https://github.com/Eyalyadai/Student_Placement_ML.git](https://github.com/Eyalyadai/Student_Placement_ML.git)
+   git clone https://github.com/Eyalyadai/Student_Placement_ML.git
