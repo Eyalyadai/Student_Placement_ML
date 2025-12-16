@@ -60,7 +60,7 @@ After rigorous tuning and validation, the **K-Nearest Neighbors (KNN)** model em
 ---
 ## Let's Connect
 **Built by Eyal Yadai**
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](www.linkedin.com/in/eyal-yadai-13757832b)
+(www.linkedin.com/in/eyal-yadai-13757832b)
 
 ---
 
