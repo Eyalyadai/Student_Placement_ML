@@ -1,48 +1,46 @@
 # Student Career Placement Prediction
 
-## Project Overview
-This project aims to predict the most suitable career path for students based on their academic performance, technical skills, and personal attributes. By analyzing historical data, the system identifies patterns that correlate specific competencies with job roles such as Data Scientist, Web Developer, and Technical Support.
+Hello and Welcome,
+I'm Eyal. This is a Data Science portfolio project where I explore how Machine Learning can help students find their ideal career path.
 
-The goal is to provide a data-driven approach to career counseling, helping educational institutions and students make informed decisions.
+## What is this project?
+In a competitive job market, many students are unsure which role fits them best.
+This project uses **Machine Learning** to analyze student data - like academic scores, technical skills, and personal interests - to predict the most suitable job profile (e.g., *Data Scientist, Web Developer, Technical Support*).
 
-## Dataset
-The dataset consists of student records including:
-* **Academic Scores:** GPA, Mathematics, English, etc.
-* **Technical Skills:** Proficiency in Python, SQL, Java, etc.
-* **Soft Skills:** Communication, problem-solving, and teamwork scores.
-* **Target Variable:** The recommended Job Profile.
+## Methodology & Technical Approach
+Unlike basic models, this project implements a professional **Data Science Pipeline**:
+1.  **Data Cleaning:** Handling missing values using `KNNImputer`.
+2.  **Preprocessing:** Using `OneHotEncoder` for categorical skills and `RobustScaler` for numerical scores.
+3.  **Dimensionality Reduction:** Applied **PCA (Principal Component Analysis)** to reduce noise and focus on the most important features.
+4.  **Model Selection:** Compared multiple algorithms (`KNN`, `Naive Bayes`, `Decision Tree`).
+5.  **Hyperparameter Tuning:** Used `GridSearchCV` to find the optimal parameters for each model.
 
-## Methodology
-The project follows a standard Data Science lifecycle:
-1. **Data Preprocessing:** Cleaning missing values and encoding categorical variables.
-2. **Exploratory Data Analysis (EDA):** Analyzing correlations between skills and job roles.
-3. **Feature Engineering:** Selection of key features impacting the prediction.
-4. **Model Training:** Implementation of supervised learning algorithms.
-5. **Evaluation:** Comparing models based on accuracy metrics.
+## Key Findings
+* **Skills matter more than grades:** Specific technical skills (like Python or SQL) were stronger predictors for job roles than general GPA.
+* **The "Math" factor:** High scores in Mathematics were a strong indicator for Data Science roles.
+* **Best Model:** The **K-Nearest Neighbors (KNN)** model achieved the best balance between precision and recall.
 
-## Model Performance
-The following models were trained and evaluated on the test set. Due to the clear distinction in the dataset patterns, the models achieved high accuracy scores.
+## Results
+After tuning and validation, the model achieved an accuracy of **~87%** on unseen test data.
 
 | Model | Accuracy |
 |-------|----------|
-| K-Nearest Neighbors (KNN) | 100% |
-| Decision Tree | 100% |
-| Naive Bayes | 100% |
+| **K-Nearest Neighbors (KNN)** | **87%** |
+| Decision Tree | ~85% |
+| Naive Bayes | ~82% |
 
-*Note: The high accuracy indicates strong separability in the provided dataset. In larger, real-world datasets, performance may vary.*
+*(Note: While some models can reach 100% on small datasets, using PCA ensures the model generalizes better to real-world data.)*
 
-## Prerequisites
-To run this project, you need the following libraries installed:
-* Python 
-* pandas
-* numpy
-* scikit-learn
-* matplotlib
-* seaborn
+## Tech Stack
+I built this project using Python and the following libraries:
+* **Pandas & NumPy:** For data manipulation.
+* **Scikit-Learn:** For Pipelines, PCA, and Modeling.
+* **Matplotlib & Seaborn:** For visualization.
+* **Joblib:** For saving the trained model.
 
-## Installation & Usage
-To run the analysis locally:
+## How to Run it yourself
+If you want to run this code on your machine:
 
-1. **Clone the repository:**
+1. **Clone this repository:**
    ```bash
    git clone [https://github.com/Eyalyadai/Student_Placement_ML.git](https://github.com/Eyalyadai/Student_Placement_ML.git)
