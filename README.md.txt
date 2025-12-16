@@ -33,7 +33,7 @@ The following models were trained and evaluated on the test set. Due to the clea
 
 ## Prerequisites
 To run this project, you need the following libraries installed:
-* Python 3.x
+* Python 
 * pandas
 * numpy
 * scikit-learn
@@ -45,4 +45,4 @@ To run the analysis locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Eyalyadai/Student-Placement-Prediction.git](https://github.com/Eyalyadai/Student-Placement-Prediction.git)
+   git clone [https://github.com/Eyalyadai/Student_Placement_ML.git](https://github.com/Eyalyadai/Student_Placement_ML.git)
