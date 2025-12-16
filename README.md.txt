@@ -1,36 +1,48 @@
-# 🎓 Student Career Placement Prediction
+# Student Career Placement Prediction
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Scikit-Learn](https://img.shields.io/badge/Library-Scikit--Learn-orange)
-![Status](https://img.shields.io/badge/Status-Completed-green)
+## Project Overview
+This project aims to predict the most suitable career path for students based on their academic performance, technical skills, and personal attributes. By analyzing historical data, the system identifies patterns that correlate specific competencies with job roles such as Data Scientist, Web Developer, and Technical Support.
 
-## 📌 Overview
-This project focuses on predicting the most suitable career path for students based on their academic performance, technical skills, and personal attributes.
+The goal is to provide a data-driven approach to career counseling, helping educational institutions and students make informed decisions.
 
-In today's competitive job market, students often struggle to identify the role that best fits their strengths. By leveraging **Machine Learning**, this project analyzes historical student data to recommend profiles such as **Data Scientist**, **Web Developer**, **Technical Support**, and more.
+## Dataset
+The dataset consists of student records including:
+* **Academic Scores:** GPA, Mathematics, English, etc.
+* **Technical Skills:** Proficiency in Python, SQL, Java, etc.
+* **Soft Skills:** Communication, problem-solving, and teamwork scores.
+* **Target Variable:** The recommended Job Profile.
 
-## 🔍 Key Findings & Insights
-* **Skill Correlation:** Technical skills (e.g., Python, SQL, Java) showed the highest correlation with specific job profiles.
-* **Academic Impact:** While GPA is important, specific subject scores (like DSA for developers or Math for Data Scientists) were more predictive than the overall average.
-* **Model Performance:** The K-Nearest Neighbors (KNN) model outperformed others after hyperparameter tuning.
+## Methodology
+The project follows a standard Data Science lifecycle:
+1. **Data Preprocessing:** Cleaning missing values and encoding categorical variables.
+2. **Exploratory Data Analysis (EDA):** Analyzing correlations between skills and job roles.
+3. **Feature Engineering:** Selection of key features impacting the prediction.
+4. **Model Training:** Implementation of supervised learning algorithms.
+5. **Evaluation:** Comparing models based on accuracy metrics.
 
-## 🛠️ Tech Stack
-* **Language:** Python
-* **Libraries:**
-  * `pandas` & `numpy` (Data Manipulation)
-  * `matplotlib` & `seaborn` (Data Visualization)
-  * `scikit-learn` (Machine Learning & Preprocessing)
+## Model Performance
+The following models were trained and evaluated on the test set. Due to the clear distinction in the dataset patterns, the models achieved high accuracy scores.
 
-## 📊 Model Performance
-I evaluated three different models to find the best predictor. Hyperparameter tuning was performed using `GridSearchCV`.
+| Model | Accuracy |
+|-------|----------|
+| K-Nearest Neighbors (KNN) | 100% |
+| Decision Tree | 100% |
+| Naive Bayes | 100% |
 
-| Model | Accuracy (Approx) |
-|-------|------------------|
-| **K-Nearest Neighbors (KNN)** | **~98%** (Best Performer) |
-| Decision Tree | ~95% |
-| Naive Bayes | ~92% |
+*Note: The high accuracy indicates strong separability in the provided dataset. In larger, real-world datasets, performance may vary.*
 
-## 🚀 How to Run
+## Prerequisites
+To run this project, you need the following libraries installed:
+* Python 3.x
+* pandas
+* numpy
+* scikit-learn
+* matplotlib
+* seaborn
+
+## Installation & Usage
+To run the analysis locally:
+
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/](https://github.com/)[Eyalyadai]/Student-Placement-Prediction.git
+   git clone [https://github.com/Eyalyadai/Student-Placement-Prediction.git](https://github.com/Eyalyadai/Student-Placement-Prediction.git)
