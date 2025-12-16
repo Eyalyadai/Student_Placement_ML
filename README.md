@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 An end-to-end Machine Learning project designed to assist students in finding their ideal career path in a competitive job market.
 
-Built by **Eyal Yadai**, this project moves beyond simple prediction by implementing a full Data Science pipeline—from cleaning and dimensionality reduction to hyperparameter tuning—to match students with roles like *Data Scientist*, *Web Developer*, or *Technical Support*.
+This project moves beyond simple prediction by implementing a full Data Science pipeline—from cleaning and dimensionality reduction to hyperparameter tuning—to match students with roles like *Data Scientist*, *Web Developer*, or *Technical Support*.
 
 ---
 
@@ -58,6 +58,11 @@ After rigorous tuning and validation, the **K-Nearest Neighbors (KNN)** model em
 * **Joblib:** Model persistence.
 
 ---
+## Let's Connect
+**Built by Eyal Yadai**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](www.linkedin.com/in/eyal-yadai-13757832b)
+
+---
 
 ## 🚀 How to Run
 If you want to run this code on your machine:
@@ -71,3 +76,4 @@ pip install -r requirements.txt
 
 # 3. Run the Notebook
 jupyter notebook notebooks/Student_Placement.ipynb
+
